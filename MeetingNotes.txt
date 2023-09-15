@@ -1,0 +1,9 @@
+September 15 2023 meeting with Randy and Vicente
+1. Search literature for a mitochondrial primer that will work with whiptail lizards
+-- This will include the genera "Aspidoscelis" or "Cnemidophorus" (which was the name of the genus before ~2000s)
+-- Look for primers for these genes: ND2, CO1, CYTB, 12S, or 16S. We really only need one of them, so its okay if you can't find primers for one of the genes
+2. Randy will purchase DNA xtraction kit and PCR kit
+3. Also, look for tissues on VertNet for Cnemidophorus neomexicana, Cnemidophorus neomexicanus, Aspidoscelis neomexicana, or Aspidoscelis neomexicanus
+-- Those are all the same species, but different ways people may have input the names
+-- See if you can find tissues from the Salt Lake area that we could potentially use, in addition to tissues along the Rio Grande
+-- If you look at a map, it would be nice to get tissues from Northern NM (around Albuquerque), central NM (around Socorro), and southern NM (around Las Cruces)
