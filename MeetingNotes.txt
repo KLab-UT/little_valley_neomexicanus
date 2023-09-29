@@ -1,3 +1,14 @@
+September 29 2023 meeting with Randy and Vicente
+1. Double check that Aspidoscelis velox originated from Aspidoscelis stictogramma mama (this may also be in literature as Cnemidophorus burti or Aspidoscelis burti)
+2. From the white board phylogeny, what sequences are available
+-- Mark which ones are in the sequence files (under the 'sequences' directory)
+-- Mark which ones are available from genbank (many of these will already be in the 'sequences' directory)
+-- On genbank, if it is the whole mitochondrial genome, just write that
+-- Mark which ones are nuclear and which are mitochondrial
+3. From the white board phylogeny, find out which species have tissues available from museums
+-- Ideally, velox and tigris samples from southern Utah (but if unavailable, that's okay)
+
+
 September 15 2023 meeting with Randy and Vicente
 1. Search literature for a mitochondrial primer that will work with whiptail lizards
 -- This will include the genera "Aspidoscelis" or "Cnemidophorus" (which was the name of the genus before ~2000s)
