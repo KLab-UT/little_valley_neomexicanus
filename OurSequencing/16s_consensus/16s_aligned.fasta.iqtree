@@ -1,0 +1,311 @@
+IQ-TREE 2.0.7 built Jan 21 2022
+
+Input file name: 16s_aligned.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 154368
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 32 sequences with 475 nucleotide sites
+Number of constant sites: 374 (= 78.7368% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 374 (= 78.7368% of all sites)
+Number of parsimony informative sites: 75
+Number of distinct site patterns: 128
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+F+R2
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TIM2+F+R2         -1776.555    3687.111 +    0.325    3709.499 +    0.456    3966.053 +     0.65
+TIM2+F+I+G4       -1777.359    3688.718 +    0.145    3711.106 +    0.204    3967.660 +    0.291
+TIM2e+R2          -1788.688    3705.376 - 3.51e-05    3725.668 - 0.000141    3971.828 -   0.0362
+GTR+F+R2          -1774.584    3687.168 +    0.316    3711.020 +    0.213    3974.437 -  0.00982
+TIM2e+I+G4        -1790.252    3708.504 - 7.35e-06    3728.796 - 2.94e-05    3974.956 -  0.00758
+GTR+F+I+G4        -1775.237    3688.474 +    0.164    3712.325 +    0.111    3975.742 -  0.00511
+SYM+R2            -1787.040    3706.080 - 2.47e-05    3727.757 - 4.95e-05    3980.859 - 0.000396
+TN+F+R2           -1788.253    3708.507 - 7.34e-06    3730.183 - 1.47e-05    3983.286 - 0.000118
+TN+F+I+G4         -1788.407    3708.813 -  6.3e-06    3730.490 - 1.26e-05    3983.592 - 0.000101
+SYM+I+G4          -1788.447    3708.895 - 6.05e-06    3730.571 - 1.21e-05    3983.673 - 9.69e-05
+GTR+F+G4          -1783.680    3703.360 - 9.62e-05    3726.473 -  9.4e-05    3986.465 -  2.4e-05
+GTR+F+R3          -1774.439    3690.878 -   0.0494    3716.248 -   0.0156    3986.473 - 2.39e-05
+TIM+F+R2          -1787.019    3708.038 - 9.28e-06    3730.427 -  1.3e-05    3986.980 - 1.85e-05
+TIM+F+I+G4        -1787.145    3708.289 - 8.18e-06    3730.677 - 1.15e-05    3987.231 - 1.64e-05
+TIM3+F+R2         -1788.287    3710.574 - 2.61e-06    3732.962 - 3.66e-06    3989.516 - 5.22e-06
+TIM3+F+I+G4       -1788.450    3710.900 - 2.22e-06    3733.288 - 3.11e-06    3989.842 - 4.43e-06
+TPM2u+F+R2        -1792.092    3716.185 - 1.58e-07    3737.861 - 3.16e-07    3990.964 - 2.53e-06
+TPM2+F+R2         -1792.092    3716.185 - 1.58e-07    3737.861 - 3.16e-07    3990.964 - 2.53e-06
+TPM2+F+I+G4       -1793.734    3719.468 - 3.06e-08    3741.144 - 6.13e-08    3994.246 -  4.9e-07
+TPM2u+F+I+G4      -1793.734    3719.468 - 3.06e-08    3741.144 - 6.13e-08    3994.246 -  4.9e-07
+TVM+F+R2          -1790.596    3717.191 - 9.55e-08    3740.304 - 9.32e-08    4000.297 - 2.38e-08
+TVM+F+I+G4        -1792.015    3720.029 - 2.31e-08    3743.143 - 2.26e-08    4003.135 - 5.76e-09
+GTR+F+I           -1792.473    3720.946 - 1.46e-08    3744.059 - 1.43e-08    4004.051 - 3.64e-09
+TNe+R2            -1809.348    3744.697 - 1.02e-13    3764.317 - 5.69e-13    4006.985 -  8.4e-10
+HKY+F+R2          -1803.295    3736.591 - 5.85e-12    3757.569 - 1.66e-11    4007.206 - 7.52e-10
+HKY+F+I+G4        -1803.350    3736.700 - 5.54e-12    3757.678 - 1.57e-11    4007.315 - 7.12e-10
+TNe+I+G4          -1810.009    3746.018 - 5.25e-14    3765.638 - 2.94e-13    4008.306 - 4.34e-10
+TVMe+R2           -1804.225    3738.450 - 2.31e-12    3759.428 - 6.56e-12    4009.065 - 2.97e-10
+TIMe+R2           -1807.714    3743.429 - 1.92e-13    3763.721 - 7.67e-13    4009.881 - 1.98e-10
+TIMe+I+G4         -1808.314    3744.628 - 1.05e-13    3764.920 - 4.21e-13    4011.080 - 1.08e-10
+K3Pu+F+R2         -1802.266    3736.533 - 6.02e-12    3758.209 - 1.21e-11    4011.311 - 9.66e-11
+K3Pu+F+I+G4       -1802.311    3736.622 - 5.76e-12    3758.298 - 1.15e-11    4011.401 - 9.24e-11
+TIM3e+R2          -1809.386    3746.773 -  3.6e-14    3767.066 - 1.44e-13    4013.225 - 3.71e-11
+TPM3u+F+R2        -1803.250    3738.500 - 2.25e-12    3760.177 - 4.51e-12    4013.279 - 3.61e-11
+TPM3+F+R2         -1803.250    3738.500 - 2.25e-12    3760.177 - 4.51e-12    4013.279 - 3.61e-11
+TPM3u+F+I+G4      -1803.278    3738.556 - 2.19e-12    3760.232 - 4.39e-12    4013.334 - 3.51e-11
+TPM3+F+I+G4       -1803.278    3738.556 - 2.19e-12    3760.232 - 4.39e-12    4013.334 - 3.51e-11
+TVMe+I+G4         -1806.939    3743.878 - 1.53e-13    3764.856 - 4.35e-13    4014.493 - 1.97e-11
+TIM3e+I+G4        -1810.069    3748.138 - 1.82e-14    3768.431 - 7.28e-14    4014.591 - 1.87e-11
+K2P+R2            -1826.746    3777.492 - 7.69e-21    3796.453 - 5.98e-20    4035.618 - 5.09e-16
+K3P+R2            -1825.119    3776.238 - 1.44e-20    3795.858 - 8.06e-20    4038.527 - 1.19e-16
+K2P+I+G4          -1828.927    3781.853 - 8.68e-22    3800.815 - 6.76e-21    4039.979 - 5.75e-17
+K3P+I+G4          -1827.235    3780.469 - 1.73e-21    3800.090 - 9.71e-21    4042.758 - 1.43e-17
+F81+F+R2          -1877.306    3882.611 - 1.15e-43    3902.904 - 4.59e-43    4149.064 - 1.18e-40
+F81+F+I+G4        -1878.625    3885.250 - 3.07e-44    3905.542 - 1.23e-43    4151.702 - 3.16e-41
+JC+R2             -1891.888    3905.777 - 1.07e-48    3924.091 - 1.15e-47    4159.739 - 5.68e-43
+JC+I+G4           -1893.801    3909.601 - 1.58e-49    3927.916 -  1.7e-48    4163.563 - 8.39e-44
+GTR+F             -1896.516    3927.031 - 2.59e-53    3949.420 - 3.64e-53    4205.974 - 5.18e-53
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2+F+R2
+
+Rate parameter R:
+
+  A-C: 9.7907
+  A-G: 17.4688
+  A-T: 9.7907
+  C-G: 1.0000
+  C-T: 69.1841
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3417
+  pi(C) = 0.2496
+  pi(G) = 0.1805
+  pi(T) = 0.2282
+
+Rate matrix Q:
+
+  A   -0.5842    0.1823    0.2352    0.1666
+  C    0.2496    -1.441   0.01347     1.178
+  G    0.4453   0.01862   -0.4809   0.01702
+  T    0.2496     1.288   0.01347    -1.551
+
+Model of rate heterogeneity: FreeRate with 2 categories
+Site proportion and rates:  (0.8696,0.223) (0.1304,6.183)
+
+ Category  Relative_rate  Proportion
+  1         0.223          0.8696
+  2         6.183          0.1304
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1776.4855 (s.e. 103.5890)
+Unconstrained log-likelihood (without tree): -1510.5359
+Number of free parameters (#branches + #model parameters): 67
+Akaike information criterion (AIC) score: 3686.9710
+Corrected Akaike information criterion (AICc) score: 3709.3592
+Bayesian information criterion (BIC) score: 3965.9131
+
+Total tree length (sum of branch lengths): 0.5703
+Sum of internal branch lengths: 0.3581 (62.7864% of tree length)
+
+WARNING: 5 near-zero internal branches (<0.0021) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'AY046491.1.A.tigris.' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--AY046491.1.A.tigris.
+|
+|  +**OK104667.1_1292-2815
++**| (86)
+|  |    +-----AY046492.1.A.tigris.
+|  +----| (100)
+|       |           +--AY046490.1.A.tigris.
+|       |        +--| (56)
+|       |        |  +--AY046494.1.A.tigris.
+|       |     +--| (31)
+|       |     |  +--AY046489.1.A.tigris.
+|       |  +--| (57)
+|       |  |  +**AY046493.1.A.tigris.
+|       +--| (84)
+|          |                  +------AY046473.1.A.deppei.
+|          |              +---| (94)
+|          |              |   +---HM012703.1.A.lineatt
+|          |        +-----| (93)
+|          |        |     +-------AY046476.1.A.guttatu
+|          |     +--| (72)
+|          |     |  |        +--AY046477.1.A.hyperyt
+|          |     |  +--------| (100)
+|          |     |           +**AF206585.1.A.tigris.
+|          +-----| (93)
+|                |                               +--AY046487.1.A.sexline
+|                |                           +---| (98)
+|                |                           |   |         +--KU055618.1.A.unipare
+|                |                           |   +---------| (100)
+|                |                           |             +--AY046478.1.A.inornat
+|                |           +---------------| (100)
+|                |           |               +---AY046486.1.A.sexline
+|                +-----------| (100)
+|                            |         +--HM012702.1.A.communi
+|                            |     +---| (97)
+|                            |     |   +--HM012701.1.A.communi
+|                            |  +**| (48)
+|                            |  |  |     +--AY046471.1.A.costatu
+|                            |  |  |  +--| (47)
+|                            |  |  |  |  |  +**AY046485.1.A.gularis
+|                            |  |  |  |  +--| (98)
+|                            |  |  |  |     +--AY046475.1.A.gularis
+|                            |  |  +--| (51)
+|                            |  |     +**AY046484.1.A.gularis
+|                            +--| (83)
+|                               |       +---AY046470.1.A.burti.r
+|                               |    +--| (86)
+|                               |    |  +--AY046472.1.A.costatu
+|                               +----| (91)
+|                                    |  +--KC621326.1.A.velox.R
+|                                    +--| (69)
+|                                       +--AY046488.1.A.burti.r
+|
+|     +--16s_sample_1
+|  +**| (78)
+|  |  |  +**16s_sample_3
+|  |  +**| (77)
+|  |     +**16s_sample_2
++--| (97)
+   |  +**OK104733.1_1090-2613
+   +**| (61)
+      +**OK104731.1_1092-2615
+
+Tree in newick format:
+
+(AY046491.1.A.tigris.:0.0043595612,(OK104667.1_1292-2815:0.0020853896,(AY046492.1.A.tigris.:0.0202121639,((((AY046490.1.A.tigris.:0.0070128841,AY046494.1.A.tigris.:0.0038023563)56:0.0022259931,AY046489.1.A.tigris.:0.0046325055)31:0.0021741071,AY046493.1.A.tigris.:0.0016881635)57:0.0040688261,((((AY046473.1.A.deppei.:0.0265525553,HM012703.1.A.lineatt:0.0134006968)94:0.0148117755,AY046476.1.A.guttatu:0.0281270785)93:0.0202847617,(AY046477.1.A.hyperyt:0.0022085627,AF206585.1.A.tigris.:0.0018807758)100:0.0323904317)72:0.0084673110,(((AY046487.1.A.sexline:0.0021330189,(KU055618.1.A.unipare:0.0049232380,AY046478.1.A.inornat:0.0047767289)100:0.0335809757)98:0.0154251525,AY046486.1.A.sexline:0.0135259383)100:0.0557039229,(((HM012702.1.A.communi:0.0024788188,HM012701.1.A.communi:0.0022988957)97:0.0158315009,((AY046471.1.A.costatu:0.0111490915,(AY046485.1.A.gularis:0.0000010119,AY046475.1.A.gularis:0.0022162184)98:0.0103369616)47:0.0033270788,AY046484.1.A.gularis:0.0000022152)51:0.0113756085)48:0.0000024645,((AY046470.1.A.burti.r:0.0138216264,AY046472.1.A.costatu:0.0105738887)86:0.0024115896,(KC621326.1.A.velox.R:0.0119871434,AY046488.1.A.burti.r:0.0119886455)69:0.0062735224)91:0.0169515849)83:0.0097279106)100:0.0425208263)93:0.0232781674)84:0.0061584929)100:0.0186404105)86:0.0000010119,((16s_sample_1:0.0043892930,(16s_sample_3:0.0000010119,16s_sample_2:0.0000010119)77:0.0000010119)78:0.0000010119,(OK104733.1_1090-2613:0.0000010119,OK104731.1_1092-2615:0.0000010119)61:0.0000010119)97:0.0021081424);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -1776.489169
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--AY046491.1.A.tigris.
+|
+|  +--OK104667.1_1292-2815
++--| (86)
+|  |    +-----AY046492.1.A.tigris.
+|  +----| (100)
+|       |           +--AY046490.1.A.tigris.
+|       |        +--| (56)
+|       |        |  +--AY046494.1.A.tigris.
+|       |     +--| (31)
+|       |     |  +--AY046489.1.A.tigris.
+|       |  +--| (57)
+|       |  |  +--AY046493.1.A.tigris.
+|       +--| (84)
+|          |                  +------AY046473.1.A.deppei.
+|          |              +---| (94)
+|          |              |   +---HM012703.1.A.lineatt
+|          |        +-----| (93)
+|          |        |     +-------AY046476.1.A.guttatu
+|          |     +--| (72)
+|          |     |  |        +--AY046477.1.A.hyperyt
+|          |     |  +--------| (100)
+|          |     |           +--AF206585.1.A.tigris.
+|          +-----| (93)
+|                |                               +--AY046487.1.A.sexline
+|                |                           +---| (98)
+|                |                           |   |         +--KU055618.1.A.unipare
+|                |                           |   +---------| (100)
+|                |                           |             +--AY046478.1.A.inornat
+|                |           +---------------| (100)
+|                |           |               +---AY046486.1.A.sexline
+|                +-----------| (100)
+|                            |         +--HM012702.1.A.communi
+|                            |     +---| (97)
+|                            |     |   +--HM012701.1.A.communi
+|                            |  +--| (48)
+|                            |  |  |     +--AY046471.1.A.costatu
+|                            |  |  |  +--| (47)
+|                            |  |  |  |  |  +--AY046485.1.A.gularis
+|                            |  |  |  |  +--| (98)
+|                            |  |  |  |     +--AY046475.1.A.gularis
+|                            |  |  +--| (51)
+|                            |  |     +--AY046484.1.A.gularis
+|                            +--| (83)
+|                               |       +---AY046470.1.A.burti.r
+|                               |    +--| (86)
+|                               |    |  +--AY046472.1.A.costatu
+|                               +----| (91)
+|                                    |  +--KC621326.1.A.velox.R
+|                                    +--| (69)
+|                                       +--AY046488.1.A.burti.r
+|
+|     +--16s_sample_1
+|  +--| (78)
+|  |  |  +--16s_sample_3
+|  |  +--| (77)
+|  |     +--16s_sample_2
++--| (97)
+   |     +**OK104733.1_1090-2613
+   |  +--|
+   |  |  +**OK104730.1_1249-2772
+   +--| (61)
+      +--OK104731.1_1092-2615
+
+
+Consensus tree in newick format: 
+
+(AY046491.1.A.tigris.:0.0043542750,(OK104667.1_1292-2815:0.0020821497,(AY046492.1.A.tigris.:0.0201552448,((((AY046490.1.A.tigris.:0.0070016249,AY046494.1.A.tigris.:0.0037999291)56:0.0022238837,AY046489.1.A.tigris.:0.0046213430)31:0.0021701610,AY046493.1.A.tigris.:0.0016942232)57:0.0040845269,((((AY046473.1.A.deppei.:0.0265212759,HM012703.1.A.lineatt:0.0133703811)94:0.0147831926,AY046476.1.A.guttatu:0.0280566954)93:0.0202372076,(AY046477.1.A.hyperyt:0.0022040433,AF206585.1.A.tigris.:0.0018764402)100:0.0323232128)72:0.0084861285,(((AY046487.1.A.sexline:0.0021242786,(KU055618.1.A.unipare:0.0049174414,AY046478.1.A.inornat:0.0047598551)100:0.0334597947)98:0.0153732059,AY046486.1.A.sexline:0.0134977593)100:0.0554250926,(((HM012702.1.A.communi:0.0024667944,HM012701.1.A.communi:0.0022887133)97:0.0157524058,((AY046471.1.A.costatu:0.0111136308,(AY046485.1.A.gularis:0.0000020304,AY046475.1.A.gularis:0.0022050167)98:0.0102945969)47:0.0033084071,AY046484.1.A.gularis:0.0000024141)51:0.0113504856)48:0.0000026865,((AY046470.1.A.burti.r:0.0137500166,AY046472.1.A.costatu:0.0105205461)86:0.0024314429,(KC621326.1.A.velox.R:0.0119547444,AY046488.1.A.burti.r:0.0119267337)69:0.0062486999)91:0.0168728695)83:0.0097595706)100:0.0423496370)93:0.0232116928)84:0.0061813371)100:0.0186035921)86:0.0000020304,((16s_sample_1:0.0043843518,(16s_sample_3:0.0000020304,16s_sample_2:0.0000020304)77:0.0000020304)78:0.0000020304,((OK104733.1_1090-2613:0.0000000000,OK104730.1_1249-2772:0.0000000000):0.0000020304,OK104731.1_1092-2615:0.0000020304)61:0.0000020304)97:0.0021048172);
+
+TIME STAMP
+----------
+
+Date and time: Mon Feb 12 11:46:30 2024
+Total CPU time used: 4.210517 seconds (0h:0m:4s)
+Total wall-clock time used: 5.757337551 seconds (0h:0m:5s)
+
