@@ -1,0 +1,318 @@
+IQ-TREE multicore version 1.6.11 for Linux 64-bit built Jun  6 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    92355f672ec4 (AVX2, FMA3, 125 GB RAM)
+Command: /usr/local/iqtree/bin/iqtree -s /tmp/IQTREE/o_dKZfh1rP/seqin.fst -st DNA -pre /tmp/IQTREE/o_dKZfh1rP/iqt -bb 1000 -pers 0.5 -numstop 100
+Seed:    277190 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Feb 12 21:39:17 2024
+Kernel:  AVX+FMA - 1 threads (24 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 24 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /tmp/IQTREE/o_dKZfh1rP/seqin.fst ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 33 sequences with 487 columns, 148 distinct patterns
+78 parsimony-informative, 54 singleton sites, 355 constant sites
+                                                                                                                                                                                                                        Gap/Ambiguity  Composition  p-value
+   1  16s_sample_1                                                                                                                                                                                                             13.96%    passed     92.38%
+   2  16s_sample_3                                                                                                                                                                                                             13.76%    passed     94.72%
+   3  16s_sample_2                                                                                                                                                                                                             13.55%    passed     95.22%
+   4  OK104733.1_1090-2613_Aspidoscelis_neomexicanus_isolate_RLK095_mitochondrion__partial_genome                                                                                                                               3.90%    passed     92.80%
+   5  OK104731.1_1092-2615_Aspidoscelis_neomexicanus_isolate_RLK090_mitochondrion__complete_genome                                                                                                                              3.90%    passed     92.80%
+   6  OK104730.1_1249-2772_Aspidoscelis_neomexicanus_isolate_RLK089_mitochondrion__complete_genome                                                                                                                              3.90%    passed     92.80%
+   7  OK104667.1_1292-2815_Aspidoscelis_neomexicanus_isolate_ASH078_mitochondrion__complete_genome                                                                                                                              3.90%    passed     91.68%
+   8  AY046492.1.A.tigris.                                                                                                                                                                                                      4.11%    passed     99.83%
+   9  AY046491.1.A.tigris.                                                                                                                                                                                                      9.24%    passed     99.38%
+  10  AY046490.1.A.tigris.                                                                                                                                                                                                      3.70%    passed     99.80%
+  11  AY046489.1.A.tigris.                                                                                                                                                                                                      3.70%    passed     99.95%
+  12  AY046494.1.A.tigris.                                                                                                                                                                                                      3.90%    passed     98.83%
+  13  AY046493.1.A.tigris.                                                                                                                                                                                                      3.70%    passed     99.80%
+  14  AF206585.1.A.tigris.                                                                                                                                                                                                      4.11%    passed     93.63%
+  15  AY046478.1.A.inornat                                                                                                                                                                                                      4.72%    passed     99.34%
+  16  AY046473.1.A.deppei.                                                                                                                                                                                                      3.90%    passed     88.87%
+  17  AY046476.1.A.guttatu                                                                                                                                                                                                      4.72%    passed     92.01%
+  18  HM012703.1.A.lineatt                                                                                                                                                                                                      4.31%    passed     95.41%
+  19  AY046477.1.A.hyperyt                                                                                                                                                                                                      4.11%    passed     92.38%
+  20  AY046487.1.A.sexline                                                                                                                                                                                                      4.52%    passed     98.19%
+  21  AY046486.1.A.sexline                                                                                                                                                                                                      4.31%    passed     98.34%
+  22  KU055618.1.A.unipare                                                                                                                                                                                                     17.25%    passed     96.84%
+  23  HM012702.1.A.communi                                                                                                                                                                                                      4.52%    passed     96.70%
+  24  HM012701.1.A.communi                                                                                                                                                                                                      4.52%    passed     97.15%
+  25  AY046471.1.A.costatu                                                                                                                                                                                                      4.52%    passed     99.73%
+  26  AY046472.1.A.costatu                                                                                                                                                                                                      4.52%    passed     98.92%
+  27  AY046484.1.A.gularis                                                                                                                                                                                                      4.31%    passed     99.48%
+  28  AY046485.1.A.gularis                                                                                                                                                                                                      7.80%    passed     97.67%
+  29  AY046475.1.A.gularis                                                                                                                                                                                                      4.31%    passed     99.96%
+  30  AY046470.1.A.burti.r                                                                                                                                                                                                      4.72%    passed     97.92%
+  31  AY046488.1.A.burti.r                                                                                                                                                                                                      5.54%    passed     95.97%
+  32  KC621326.1.A.velox.R                                                                                                                                                                                                      4.31%    passed     99.36%
+  33  AF101369.1_544-1845_Gymnophthalmus_underwoodi_12S_ribosomal_RNA_gene__partial_sequence__tRNA-Val_gene__complete_sequence__and_16S_ribosomal_RNA_gene__partial_sequence__mitochondrial_genes_for_mitochondrial_products   17.04%    passed     92.42%
+****  TOTAL                                                                                                                                                                                                                     6.16%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: OK104731.1_1092-2615_Aspidoscelis_neomexicanus_isolate_RLK090_mitochondrion__complete_genome is identical to OK104733.1_1090-2613_Aspidoscelis_neomexicanus_isolate_RLK095_mitochondrion__partial_genome but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: OK104730.1_1249-2772_Aspidoscelis_neomexicanus_isolate_RLK089_mitochondrion__complete_genome (identical to OK104733.1_1090-2613_Aspidoscelis_neomexicanus_isolate_RLK095_mitochondrion__partial_genome) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to /tmp/IQTREE/o_dKZfh1rP/iqt.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+NOTE: ModelFinder requires 2 MB RAM!
+ModelFinder will test 286 DNA models (sample size: 487) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            2292.276     61  4706.553     4724.350     4962.037
+  2  JC+I          2168.580     62  4461.161     4479.585     4720.833
+  3  JC+G4         2155.979     62  4435.959     4454.383     4695.631
+  4  JC+I+G4       2146.322     63  4418.645     4437.709     4682.505
+  5  JC+R2         2149.763     63  4425.526     4444.590     4689.387
+  6  JC+R3         2144.304     65  4418.607     4438.987     4690.844
+ 14  F81+F         2275.945     64  4679.889     4699.605     4947.938
+ 15  F81+F+I       2150.803     65  4431.606     4451.986     4703.844
+ 16  F81+F+G4      2137.422     65  4404.844     4425.224     4677.081
+ 17  F81+F+I+G4    2127.093     66  4386.185     4407.243     4662.611
+ 18  F81+F+R2      2131.304     66  4394.607     4415.664     4671.033
+ 19  F81+F+R3      2125.417     68  4386.834     4409.284     4671.636
+ 27  K2P           2243.720     62  4611.439     4629.864     4871.112
+ 28  K2P+I         2111.259     63  4348.519     4367.582     4612.379
+ 29  K2P+G4        2095.132     63  4316.263     4335.327     4580.124
+ 30  K2P+I+G4      2083.963     64  4295.925     4315.641     4563.974
+ 31  K2P+R2        2090.514     64  4309.027     4328.743     4577.076
+ 32  K2P+R3        2083.864     66  4299.729     4320.786     4576.154
+ 33  K2P+R4        2082.155     68  4300.310     4322.760     4585.112
+ 40  HKY+F         2222.441     65  4574.882     4595.262     4847.119
+ 41  HKY+F+I       2083.670     66  4299.340     4320.398     4575.766
+ 42  HKY+F+G4      2065.995     66  4263.991     4285.048     4540.416
+ 43  HKY+F+I+G4    2053.979     67  4241.957     4263.704     4522.571
+ 44  HKY+F+R2      2063.178     67  4260.355     4282.102     4540.969
+ 45  HKY+F+R3      2055.569     69  4249.137     4272.303     4538.128
+ 46  HKY+F+R4      2053.406     71  4248.813     4273.449     4546.179
+ 53  TNe           2215.423     63  4556.847     4575.911     4820.708
+ 54  TNe+I         2095.426     64  4318.851     4338.567     4586.900
+ 55  TNe+G4        2074.721     64  4277.442     4297.158     4545.491
+ 56  TNe+I+G4      2065.570     65  4261.140     4281.520     4533.377
+ 57  TNe+R2        2070.378     65  4270.756     4291.136     4542.993
+ 58  TNe+R3        2065.003     67  4264.005     4285.752     4544.619
+ 66  TN+F          2194.096     66  4520.192     4541.249     4796.617
+ 67  TN+F+I        2071.095     67  4276.191     4297.938     4556.805
+ 68  TN+F+G4       2048.696     67  4231.391     4253.138     4512.005
+ 69  TN+F+I+G4     2038.962     68  4213.924     4236.373     4498.726
+ 70  TN+F+R2       2044.943     68  4225.886     4248.336     4510.688
+ 71  TN+F+R3       2038.945     70  4217.890     4241.784     4511.068
+ 79  K3P           2239.696     63  4605.393     4624.457     4869.253
+ 80  K3P+I         2108.125     64  4344.249     4363.965     4612.298
+ 81  K3P+G4        2091.497     64  4310.994     4330.710     4579.043
+ 82  K3P+I+G4      2080.236     65  4290.472     4310.852     4562.709
+ 83  K3P+R2        2086.294     65  4302.588     4322.968     4574.825
+ 84  K3P+R3        2079.779     67  4293.557     4315.304     4574.171
+ 85  K3P+R4        2077.973     69  4293.946     4317.112     4582.937
+ 92  K3Pu+F        2218.658     66  4569.316     4590.373     4845.741
+ 93  K3Pu+F+I      2081.143     67  4296.286     4318.033     4576.899
+ 94  K3Pu+F+G4     2063.311     67  4260.623     4282.370     4541.237
+ 95  K3Pu+F+I+G4   2051.371     68  4238.741     4261.191     4523.543
+ 96  K3Pu+F+R2     2059.982     68  4255.965     4278.414     4540.767
+ 97  K3Pu+F+R3     2052.593     70  4245.185     4269.080     4538.364
+ 98  K3Pu+F+R4     2050.368     72  4244.735     4270.127     4546.290
+105  TPM2+F        2203.572     66  4539.145     4560.202     4815.570
+106  TPM2+F+I      2070.305     67  4274.610     4296.357     4555.224
+107  TPM2+F+G4     2053.996     67  4241.993     4263.740     4522.607
+108  TPM2+F+I+G4   2042.038     68  4220.075     4242.525     4504.877
+109  TPM2+F+R2     2050.147     68  4236.295     4258.745     4521.097
+110  TPM2+F+R3     2043.183     70  4226.366     4250.260     4519.544
+111  TPM2+F+R4     2041.008     72  4226.015     4251.406     4527.570
+118  TPM2u+F       2203.570     66  4539.140     4560.197     4815.565
+119  TPM2u+F+I     2070.305     67  4274.610     4296.357     4555.224
+120  TPM2u+F+G4    2053.997     67  4241.994     4263.741     4522.607
+121  TPM2u+F+I+G4  2041.994     68  4219.987     4242.437     4504.789
+122  TPM2u+F+R2    2050.148     68  4236.295     4258.745     4521.097
+123  TPM2u+F+R3    2043.181     70  4226.362     4250.256     4519.541
+124  TPM2u+F+R4    2040.942     72  4225.885     4251.276     4527.440
+131  TPM3+F        2221.786     66  4575.571     4596.628     4851.997
+132  TPM3+F+I      2083.350     67  4300.700     4322.447     4581.314
+133  TPM3+F+G4     2065.980     67  4265.960     4287.707     4546.573
+134  TPM3+F+I+G4   2053.525     68  4243.051     4265.501     4527.853
+135  TPM3+F+R2     2063.170     68  4262.340     4284.790     4547.142
+136  TPM3+F+R3     2055.555     70  4251.109     4275.003     4544.288
+137  TPM3+F+R4     2053.016     72  4250.031     4275.422     4551.586
+144  TPM3u+F       2221.786     66  4575.572     4596.629     4851.998
+145  TPM3u+F+I     2083.350     67  4300.700     4322.447     4581.314
+146  TPM3u+F+G4    2065.980     67  4265.959     4287.706     4546.573
+147  TPM3u+F+I+G4  2053.491     68  4242.982     4265.431     4527.784
+148  TPM3u+F+R2    2063.168     68  4262.337     4284.787     4547.139
+149  TPM3u+F+R3    2055.552     70  4251.103     4274.998     4544.282
+150  TPM3u+F+R4    2052.938     72  4249.876     4275.267     4551.431
+157  TIMe          2211.224     64  4550.447     4570.163     4818.496
+158  TIMe+I        2092.082     65  4314.164     4334.544     4586.401
+159  TIMe+G4       2071.012     65  4272.024     4292.404     4544.261
+160  TIMe+I+G4     2061.937     66  4255.874     4276.931     4532.299
+161  TIMe+R2       2065.856     66  4263.713     4284.770     4540.138
+162  TIMe+R3       2060.712     68  4257.424     4279.874     4542.226
+170  TIM+F         2190.267     67  4514.534     4536.281     4795.148
+171  TIM+F+I       2068.355     68  4272.710     4295.160     4557.512
+172  TIM+F+G4      2045.870     68  4227.739     4250.189     4512.541
+173  TIM+F+I+G4    2036.235     69  4210.471     4233.636     4499.461
+174  TIM+F+R2      2041.376     69  4220.752     4243.917     4509.742
+175  TIM+F+R3      2035.603     71  4213.205     4237.841     4510.572
+183  TIM2e         2187.467     64  4502.934     4522.650     4770.983
+184  TIM2e+I       2068.441     65  4266.882     4287.262     4539.119
+185  TIM2e+G4      2048.749     65  4227.498     4247.878     4499.735
+186  TIM2e+I+G4    2040.012     66  4212.025     4233.082     4488.450
+187  TIM2e+R2      2044.554     66  4221.108     4242.165     4497.533
+188  TIM2e+R3      2039.326     68  4214.652     4237.102     4499.454
+196  TIM2+F        2175.689     67  4485.379     4507.126     4765.992
+197  TIM2+F+I      2056.218     68  4248.435     4270.885     4533.237
+198  TIM2+F+G4     2034.653     68  4205.305     4227.755     4490.107
+199  TIM2+F+I+G4   2025.547     69  4189.095     4212.260     4478.085
+200  TIM2+F+R2     2030.783     69  4199.566     4222.731     4488.556
+201  TIM2+F+R3     2025.250     71  4192.499     4217.136     4489.866
+209  TIM3e         2214.458     64  4556.916     4576.632     4824.965
+210  TIM3e+I       2094.931     65  4319.861     4340.242     4592.099
+211  TIM3e+G4      2074.516     65  4279.032     4299.412     4551.269
+212  TIM3e+I+G4    2065.338     66  4262.676     4283.734     4539.102
+213  TIM3e+R2      2070.205     66  4272.410     4293.468     4548.836
+214  TIM3e+R3      2064.836     68  4265.672     4288.122     4550.474
+222  TIM3+F        2193.398     67  4520.797     4542.544     4801.411
+223  TIM3+F+I      2070.792     68  4277.585     4300.035     4562.387
+224  TIM3+F+G4     2048.676     68  4233.352     4255.802     4518.154
+225  TIM3+F+I+G4   2038.886     69  4215.773     4238.938     4504.763
+226  TIM3+F+R2     2044.919     69  4227.838     4251.004     4516.829
+227  TIM3+F+R3     2038.934     71  4219.868     4244.505     4517.235
+235  TVMe          2210.182     65  4550.364     4570.744     4822.601
+236  TVMe+I        2082.987     66  4297.974     4319.031     4574.399
+237  TVMe+G4       2066.429     66  4264.858     4285.915     4541.283
+238  TVMe+I+G4     2055.952     67  4245.905     4267.652     4526.518
+239  TVMe+R2       2060.802     67  4255.604     4277.351     4536.218
+240  TVMe+R3       2054.828     69  4247.655     4270.821     4536.646
+248  TVM+F         2198.783     68  4533.566     4556.015     4818.368
+249  TVM+F+I       2067.096     69  4272.191     4295.357     4561.182
+250  TVM+F+G4      2050.801     69  4239.602     4262.767     4528.592
+251  TVM+F+I+G4    2039.158     70  4218.315     4242.209     4511.494
+252  TVM+F+R2      2045.894     70  4231.789     4255.683     4524.967
+253  TVM+F+R3      2039.279     72  4222.558     4247.949     4524.113
+254  TVM+F+R4      2037.009     74  4222.017     4248.959     4531.949
+261  SYM           2182.290     66  4496.579     4517.636     4773.005
+262  SYM+I         2064.632     67  4263.265     4285.012     4543.879
+263  SYM+G4        2045.222     67  4224.443     4246.190     4505.057
+264  SYM+I+G4      2036.868     68  4209.737     4232.187     4494.539
+265  SYM+R2        2039.930     68  4215.859     4238.309     4500.661
+266  SYM+R3        2035.141     70  4210.281     4234.176     4503.460
+274  GTR+F         2170.857     69  4479.715     4502.880     4768.705
+275  GTR+F+I       2052.518     70  4245.037     4268.931     4538.215
+276  GTR+F+G4      2031.023     70  4202.046     4225.941     4495.225
+277  GTR+F+I+G4    2022.236     71  4186.472     4211.108     4483.839
+278  GTR+F+R2      2026.056     71  4194.111     4218.747     4491.478
+279  GTR+F+R3      2020.850     73  4187.700     4213.860     4493.443
+Akaike Information Criterion:           GTR+F+I+G4
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         TIM2+F+I+G4
+Best-fit model: TIM2+F+I+G4 chosen according to BIC
+
+All model information printed to /tmp/IQTREE/o_dKZfh1rP/iqt.model.gz
+CPU time for ModelFinder: 1.883 seconds (0h:0m:1s)
+Wall-clock time for ModelFinder: 1.887 seconds (0h:0m:1s)
+Generating 1000 samples for ultrafast bootstrap (seed: 277190)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.196 / LogL: -2034.656
+Init pinv, alpha: 0.081, 1.000 / Estimate: 0.319, 0.308 / LogL: -2026.804
+Init pinv, alpha: 0.162, 1.000 / Estimate: 0.316, 0.306 / LogL: -2026.851
+Init pinv, alpha: 0.243, 1.000 / Estimate: 0.317, 0.306 / LogL: -2026.831
+Init pinv, alpha: 0.324, 1.000 / Estimate: 0.345, 0.326 / LogL: -2026.447
+Init pinv, alpha: 0.405, 1.000 / Estimate: 0.414, 0.391 / LogL: -2025.763
+Init pinv, alpha: 0.486, 1.000 / Estimate: 0.483, 0.487 / LogL: -2025.556
+Init pinv, alpha: 0.567, 1.000 / Estimate: 0.536, 0.601 / LogL: -2025.886
+Init pinv, alpha: 0.648, 1.000 / Estimate: 0.541, 0.613 / LogL: -2025.942
+Init pinv, alpha: 0.729, 1.000 / Estimate: 0.538, 0.603 / LogL: -2025.901
+Optimal pinv,alpha: 0.483, 0.487 / LogL: -2025.556
+
+Parameters optimization took 0.483 sec
+Computing ML distances based on estimated model parameters... 0.006 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -2029.413
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.092 second
+Computing log-likelihood of 98 initial trees ... 0.170 seconds
+Current best score: -2022.762
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2019.903
+Iteration 10 / LogL: -2020.370 / Time: 0h:0m:0s
+BETTER TREE FOUND at iteration 15: -2019.902
+Iteration 20 / LogL: -2022.199 / Time: 0h:0m:1s
+Finish initializing candidate tree set (12)
+Current best tree score: -2019.902 / CPU time: 0.683
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 23: -2019.902
+Iteration 30 / LogL: -2021.700 / Time: 0h:0m:1s (0h:0m:4s left)
+BETTER TREE FOUND at iteration 34: -2019.900
+BETTER TREE FOUND at iteration 40: -2019.900
+Iteration 40 / LogL: -2019.900 / Time: 0h:0m:1s (0h:0m:4s left)
+BETTER TREE FOUND at iteration 43: -2019.900
+UPDATE BEST LOG-LIKELIHOOD: -2019.899
+Iteration 50 / LogL: -2019.899 / Time: 0h:0m:2s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -2041.732
+Iteration 60 / LogL: -2019.900 / Time: 0h:0m:2s (0h:0m:3s left)
+Iteration 70 / LogL: -2020.348 / Time: 0h:0m:2s (0h:0m:2s left)
+Iteration 80 / LogL: -2019.900 / Time: 0h:0m:3s (0h:0m:2s left)
+Iteration 90 / LogL: -2019.902 / Time: 0h:0m:3s (0h:0m:1s left)
+Iteration 100 / LogL: -2022.245 / Time: 0h:0m:3s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -2040.676
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 110 / LogL: -2019.899 / Time: 0h:0m:3s (0h:0m:3s left)
+UPDATE BEST LOG-LIKELIHOOD: -2019.899
+Iteration 120 / LogL: -2019.902 / Time: 0h:0m:4s (0h:0m:2s left)
+Iteration 130 / LogL: -2019.900 / Time: 0h:0m:4s (0h:0m:2s left)
+Iteration 140 / LogL: -2024.968 / Time: 0h:0m:4s (0h:0m:2s left)
+TREE SEARCH COMPLETED AFTER 144 ITERATIONS / Time: 0h:0m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2019.899
+Optimal log-likelihood: -2019.895
+Rate parameters:  A-C: 8.72985  A-G: 13.70049  A-T: 8.72985  C-G: 1.00000  C-T: 63.15081  G-T: 1.00000
+Base frequencies:  A: 0.341  C: 0.249  G: 0.181  T: 0.228
+Proportion of invariable sites: 0.478
+Gamma shape alpha: 0.476
+Parameters optimization took 1 rounds (0.004 sec)
+BEST SCORE FOUND : -2019.895
+Creating bootstrap support values...
+Split supports printed to NEXUS file /tmp/IQTREE/o_dKZfh1rP/iqt.splits.nex
+Total tree length: 1.420
+
+Total number of iterations: 144
+CPU time used for tree search: 4.476 sec (0h:0m:4s)
+Wall-clock time used for tree search: 4.483 sec (0h:0m:4s)
+Total CPU time used: 5.037 sec (0h:0m:5s)
+Total wall-clock time used: 5.047 sec (0h:0m:5s)
+
+Computing bootstrap consensus tree...
+Reading input file /tmp/IQTREE/o_dKZfh1rP/iqt.splits.nex...
+32 taxa and 289 splits.
+Consensus tree written to /tmp/IQTREE/o_dKZfh1rP/iqt.contree
+Reading input trees file /tmp/IQTREE/o_dKZfh1rP/iqt.contree
+Log-likelihood of consensus tree: -2019.898
+
+Analysis results written to: 
+  IQ-TREE report:                /tmp/IQTREE/o_dKZfh1rP/iqt.iqtree
+  Maximum-likelihood tree:       /tmp/IQTREE/o_dKZfh1rP/iqt.treefile
+  Likelihood distances:          /tmp/IQTREE/o_dKZfh1rP/iqt.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /tmp/IQTREE/o_dKZfh1rP/iqt.splits.nex
+  Consensus tree:                /tmp/IQTREE/o_dKZfh1rP/iqt.contree
+  Screen log file:               /tmp/IQTREE/o_dKZfh1rP/iqt.log
+
+Date and Time: Mon Feb 12 21:39:24 2024

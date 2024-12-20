@@ -1,0 +1,493 @@
+%!PS-Adobe-3.0
+%%DocumentNeededResources: font Helvetica
+%%+ font Helvetica-Bold
+%%+ font Helvetica-Oblique
+%%+ font Helvetica-BoldOblique
+%%+ font Symbol
+%%DocumentMedia: US 612 792 0 () ()
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%Orientation: Portrait
+%%BoundingBox: 18 18 594 774
+%%EndComments
+%%BeginProlog
+/bp  { gs sRGB gs } def
+% begin .ps.prolog
+/gs  { gsave } bind def
+/gr  { grestore } bind def
+/ep  { showpage gr gr } bind def
+/m   { moveto } bind def
+/l  { rlineto } bind def
+/np  { newpath } bind def
+/cp  { closepath } bind def
+/f   { fill } bind def
+/o   { stroke } bind def
+/c   { newpath 0 360 arc } bind def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } bind def
+/p1  { stroke } bind def
+/p2  { gsave bg fill grestore newpath } bind def
+/p3  { gsave bg fill grestore stroke } bind def
+/p6  { gsave bg eofill grestore newpath } bind def
+/p7  { gsave bg eofill grestore stroke } bind def
+/t   { 5 -2 roll moveto gsave rotate
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } bind def
+/ta  { 4 -2 roll moveto gsave rotate show } bind def
+/tb  { 2 -1 roll 0 rmoveto show } bind def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } bind def
+/rgb { setrgbcolor } bind def
+/s   { scalefont setfont } bind def
+% end   .ps.prolog
+/sRGB { [ /CIEBasedABC
+          << /DecodeLMN
+               [ { dup 0.03928 le
+                        {12.92321 div}
+                        {0.055 add 1.055 div 2.4 exp }
+                     ifelse
+                 } bind dup dup
+               ]
+             /MatrixLMN [0.412457 0.212673 0.019334
+                         0.357576 0.715152 0.119192
+                         0.180437 0.072175 0.950301]
+             /WhitePoint [0.9505 1.0 1.0890]
+           >>
+         ] setcolorspace } bind def
+/srgb { setcolor } bind def
+%%IncludeResource: font Helvetica
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Helvetica-Oblique
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Helvetica-BoldOblique
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+18.00 18.00 594.00 774.00 cl
+18.00 18.00 594.00 774.00 cl
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+311.59 431.71 m
+0 0 l
+o
+np
+311.59 431.71 m
+0.17 -0.11 l
+o
+np
+311.76 431.60 m
+0 0 l
+o
+np
+311.76 431.60 m
+1.27 -1.21 l
+o
+np
+313.03 430.39 m
+0.31 -0.36 l
+o
+np
+313.34 430.03 m
+0.73 -2.11 l
+o
+np
+314.07 427.92 m
+-0.58 -4.04 l
+o
+np
+313.49 423.88 m
+-0.51 -0.88 l
+o
+np
+312.98 423.00 m
+0 0 l
+o
+np
+312.98 423.00 m
+-1.01 -0.41 l
+o
+np
+311.97 422.59 m
+-0.31 -0.09 l
+o
+np
+311.66 422.50 m
+-0.97 -0.19 l
+o
+np
+310.69 422.31 m
+0 0 l
+o
+np
+310.69 422.31 m
+-0.21 -0.06 l
+o
+np
+311.66 422.50 m
+-0.95 -0.49 l
+o
+np
+311.97 422.59 m
+0 0 l
+o
+np
+312.98 423.00 m
+0 0 l
+o
+np
+312.98 423.00 m
+-0.87 -1.23 l
+o
+np
+312.11 421.77 m
+-0.16 -0.17 l
+o
+np
+312.11 421.77 m
+-0.12 -0.19 l
+o
+np
+312.98 423.00 m
+-21.91 -63.31 l
+o
+np
+312.98 423.00 m
+0.23 -1.61 l
+o
+np
+313.21 421.39 m
+-0.01 -0.26 l
+o
+np
+313.20 421.13 m
+-0.15 -0.99 l
+o
+np
+313.20 421.13 m
+0.06 -1.33 l
+o
+np
+313.21 421.39 m
+0.19 -0.55 l
+o
+np
+313.40 420.84 m
+0.27 -1.11 l
+o
+np
+313.40 420.84 m
+0.47 -1.04 l
+o
+np
+313.49 423.88 m
+3.96 -3.12 l
+o
+np
+317.45 420.76 m
+1.07 -1.02 l
+o
+np
+318.52 419.74 m
+2.07 -2.39 l
+o
+np
+320.59 417.35 m
+0.27 -0.38 l
+o
+np
+320.59 417.35 m
+0.34 -0.32 l
+o
+np
+318.52 419.74 m
+0.16 -0.10 l
+o
+np
+317.45 420.76 m
+1.20 -0.48 l
+o
+np
+314.07 427.92 m
+0.82 0.16 l
+o
+np
+314.89 428.08 m
+1.67 0 l
+o
+np
+316.56 428.08 m
+1.35 -0.13 l
+o
+np
+317.91 427.95 m
+2.44 -0.47 l
+o
+np
+317.91 427.95 m
+1.35 0 l
+o
+np
+316.56 428.08 m
+2.67 0.52 l
+o
+np
+314.89 428.08 m
+2.93 1.51 l
+o
+np
+317.82 429.59 m
+0.17 0.07 l
+o
+np
+317.82 429.59 m
+0.17 0.11 l
+o
+np
+313.34 430.03 m
+0.16 0.28 l
+o
+np
+313.50 430.31 m
+0.22 0.31 l
+o
+np
+313.72 430.62 m
+0.28 0.32 l
+o
+np
+314.00 430.94 m
+0.62 0.59 l
+o
+np
+314.00 430.94 m
+0.11 0.16 l
+o
+np
+313.72 430.62 m
+0 0 l
+o
+np
+313.50 430.31 m
+0.10 0.43 l
+o
+np
+313.03 430.39 m
+0.09 1.92 l
+o
+np
+311.76 431.60 m
+-0.02 0.20 l
+o
+np
+311.76 431.60 m
+-0.14 0.40 l
+o
+np
+311.59 431.71 m
+0 0 l
+o
+np
+311.59 431.71 m
+0 0 l
+o
+np
+311.59 431.71 m
+0 0 l
+o
+np
+311.59 431.71 m
+0 0 l
+o
+np
+311.59 431.71 m
+0 0 l
+o
+np
+311.59 431.71 m
+0 0 l
+o
+np
+311.59 431.71 m
+0 0 l
+o
+np
+311.59 431.71 m
+0 0 l
+o
+np
+311.59 431.71 m
+-0.42 0.04 l
+o
+/Font4 findfont 10 s
+310.92 429.20 (16s_sample_1) 1 -5.45 t
+310.42 429.44 (16s_sample_3) 1 -27.27 t
+310.87 429.26 (16s_sample_2) 1 -16.36 t
+61.60 859.51 (OK104733.1_1090-2613_Aspidoscelis_neome) -60.00 ta
+-0.150 (xican) tb
+-0.100 (us_isolate_RLK095_mitoc) tb
+-0.100 (hondrion__par) tb
+0.200 (tial_g) tb
+0.100 (enome) tb gr
+-23.94 814.96 (OK104730.1_1249-2772_Aspidoscelis_neome) -49.09 ta
+-0.150 (xican) tb
+-0.100 (us_isolate_RLK089_mitoc) tb
+-0.100 (hondrion__complete_g) tb
+0.100 (enome) tb gr
+-90.41 744.53 (OK104731.1_1092-2615_Aspidoscelis_neome) -38.18 ta
+-0.150 (xican) tb
+-0.100 (us_isolate_RLK090_mitoc) tb
+-0.100 (hondrion__complete_g) tb
+0.100 (enome) tb gr
+236.59 936.17 (OK104667.1_1292-2815_Aspidoscelis_neome) -81.82 ta
+-0.150 (xican) tb
+-0.100 (us_isolate_ASH078_mitoc) tb
+-0.100 (hondrion__complete_g) tb
+0.100 (enome) tb gr
+315.65 432.19 (A) 87.27 ta
+-1.100 (Y046492.1.A.tigris.) tb gr
+316.37 429.70 (A) 43.64 ta
+-1.100 (Y046490.1.A.tigris.) tb gr
+316.18 429.63 (A) 54.55 ta
+-1.100 (Y046494.1.A.tigris.) tb gr
+316.03 429.57 (A) 65.45 ta
+-1.100 (Y046493.1.A.tigris.) tb gr
+316.07 430.14 (A) 76.36 ta
+-1.100 (Y046489.1.A.tigris.) tb gr
+318.93 427.30 (AF206585.1.A.tigris.) 0 21.82 t
+319.36 427.58 (A) 32.73 ta
+-1.100 (Y046477.1.A.h) tb
+-0.200 (yper) tb
+0.100 (yt) tb gr
+319.86 424.94 (A) -10.91 ta
+-1.100 (Y046473.1.A.deppei.) tb gr
+319.26 424.42 (HM012703.1.A.lineatt) 0 0.00 t
+319.71 426.14 (A) 10.91 ta
+-1.100 (Y046476.1.A.guttatu) tb gr
+317.99 414.93 (A) -54.55 ta
+-1.100 (Y046478.1.A.inornat) tb gr
+319.15 415.15 (KU055618.1.A.unipare) 0 -43.64 t
+316.77 416.67 (A) -32.73 ta
+-1.100 (Y046487.1.A.se) tb
+-0.150 (xline) tb gr
+317.34 417.00 (A) -21.82 ta
+-1.100 (Y046486.1.A.se) tb
+-0.150 (xline) tb gr
+239.65 332.77 (HM012702.1.A.comm) -310.91 ta
+-0.200 (uni) tb gr
+257.81 320.67 (HM012701.1.A.comm) -300.00 ta
+-0.200 (uni) tb gr
+-92.91 -757.68 (AF101369.1_544-1845_Gymnophthalm) -289.09 ta
+-0.200 (us_underw) tb
+-0.200 (oodi_12S_ribosomal_RNA_g) tb
+0.100 (ene__par) tb
+0.200 (tial_sequence__tRNA-V) tb
+-0.600 (al_g) tb
+0.100 (ene__complete_sequence__and_16S_ribosomal_RNA_g) tb
+0.100 (ene__par) tb
+0.200 (tial_sequence__mitoc) tb
+-0.100 (hondrial_g) tb
+0.100 (enes_f) tb
+-0.200 (or_mitoc) tb
+-0.100 (hondrial_pr) tb
+-0.200 (oducts) tb gr
+219.94 371.28 (A) -332.73 ta
+-1.100 (Y046471.1.A.costatu) tb gr
+210.23 410.17 (A) -354.55 ta
+-1.100 (Y046485.1.A.gularis) tb gr
+214.14 391.32 (A) -343.64 ta
+-1.100 (Y046475.1.A.gularis) tb gr
+234.02 358.06 (A) -321.82 ta
+-1.100 (Y046484.1.A.gularis) tb gr
+301.72 316.77 (A) -278.18 ta
+-1.100 (Y046472.1.A.costatu) tb gr
+309.73 419.63 (A) -87.27 ta
+-1.100 (Y046470.1.A.b) tb
+-0.200 (ur) tb
+0.200 (ti.r) tb gr
+310.24 418.90 (A) -76.36 ta
+-1.100 (Y046488.1.A.b) tb
+-0.200 (ur) tb
+0.200 (ti.r) tb gr
+310.61 418.31 (KC621326.1.A.velo) -65.45 ta
+-0.300 (x.R) tb gr
+277.96 521.51 (A) -70.91 ta
+-1.100 (Y046491.1.A.tigris.) tb gr
+311.59 424.53 (79) 1 0 t
+311.59 424.53 (74) 1 0 t
+311.59 424.53 (78) 1 0 t
+311.76 424.42 (97) 1 0 t
+311.76 424.42 (87) 1 0 t
+313.03 423.21 (100) 1 0 t
+313.34 422.85 (80) 1 0 t
+313.50 423.13 (65) 1 0 t
+313.72 423.44 (27) 1 0 t
+314.00 423.76 (56) 1 0 t
+314.07 420.74 (91) 1 0 t
+314.89 420.90 (71) 1 0 t
+317.82 422.41 (100) 1 0 t
+316.56 420.90 (94) 1 0 t
+317.91 420.77 (93) 1 0 t
+313.49 416.70 (92) 1 0 t
+317.45 413.58 (100) 1 0 t
+318.52 412.56 (97) 1 0 t
+320.59 410.17 (100) 1 0 t
+312.98 415.82 (74) 1 0 t
+312.98 415.82 (29) 1 0 t
+312.98 415.82 (19) 1 0 t
+312.11 414.59 (96) 1 0 t
+311.97 415.41 (38) 1 0 t
+311.66 415.32 (35) 1 0 t
+310.69 415.13 (98) 1 0 t
+313.21 414.21 (89) 1 0 t
+313.20 413.95 (86) 1 0 t
+313.40 413.66 (79) 1 0 t
+np
+39.33 107.96 m
+4.27 0 l
+o
+/Font1 findfont 10 s
+44.03 104.37 (0.05) 0 0 t
+ep
+%%Trailer
+%%Pages: 1
+%%EOF
